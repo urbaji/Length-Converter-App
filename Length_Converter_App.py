@@ -9,7 +9,6 @@ def convert_length():
     except ValueError:
         messagebox.showerror("Input Error", "Please enter a valid number!")
 
-# GUI Setup
 root = tk.Tk()
 root.title("Length Converter (Inches to Centimeters)")
 
